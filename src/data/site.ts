@@ -177,7 +177,7 @@ export const UPDATES: UpdateItem[] = [
     body:
       "Aeygis Security is delivering over 200 Canadian Program for Cyber Security Certification Level 1 audits across the defence supply chain in 2027, helping suppliers stay eligible for federal contracts.",
     video: "/media/updates/cpcsc.mp4",
-    cta: { label: "Book an audit", href: "/security" },
+    cta: { label: "Book an audit", href: "/security/" },
   },
   {
     id: "tenders",
@@ -198,6 +198,6 @@ export const UPDATES: UpdateItem[] = [
     title: "Meet Gantry: AWS infrastructure, built and run",
     body: "The fourth offering in the Aeygis group designs, builds and runs AWS for teams that have outgrown the setups they improvised.",
     video: "/media/updates/gantry.mp4",
-    cta: { label: "Explore Gantry", href: "/gantry" },
+    cta: { label: "Explore Gantry", href: "/gantry/" },
   },
 ];

@@ -19,7 +19,7 @@ export function Footer() {
             <ul>
               {OFFERINGS.map((o) => (
                 <li key={o.name}>
-                  <Link to={`/${o.slug}`}>{o.name}</Link>
+                  <Link to={`/${o.slug}/`}>{o.name}</Link>
                 </li>
               ))}
             </ul>

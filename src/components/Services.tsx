@@ -101,7 +101,7 @@ function ServiceRow({ item, index }: { item: Offering; index: number }) {
       className={`ae-svc-item${shown ? " is-shown" : ""}${hover ? " is-hover" : ""}`}
       style={{ transitionDelay: shown && !reduced ? `${index * 70}ms` : undefined }}
     >
-      <Link {...rowProps} to={`/${item.slug}`}>
+      <Link {...rowProps} to={`/${item.slug}/`}>
         {content}
       </Link>
     </li>

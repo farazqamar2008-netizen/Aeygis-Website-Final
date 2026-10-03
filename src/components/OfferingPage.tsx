@@ -112,7 +112,7 @@ export function OfferingPage({ item }: { item: Offering }) {
           <ul className="ae-op-more">
             {others.map((o) => (
               <li key={o.slug}>
-                <Link to={`/${o.slug}`}>
+                <Link to={`/${o.slug}/`}>
                   <span className="ae-op-more-name">{o.name}</span>
                   <span className="ae-op-more-tag">{o.tagline}</span>
                 </Link>
